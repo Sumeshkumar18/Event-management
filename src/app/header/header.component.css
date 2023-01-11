@@ -1,0 +1,71 @@
+.company-logo-img {
+  height: 60px;
+  width: 220px;
+}
+.company-logo-div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+ /* ul.dropdown-menu.show {
+  display: none;
+}
+a.nav-link.show:hover + ul.dropdown-menu.show {
+  display: block;
+
+}
+a.nav-link.show {
+  pointer-events: none;
+}
+ul.dropdown-menu.show {
+  pointer-events: auto;
+  display: none;
+} */
+/* ul.dropdown-menu.show {
+  display: none;
+  visibility: hidden;
+}
+a.nav-link.show:hover + ul.dropdown-menu.show{
+  display: block;
+  visibility: visible;
+} */
+a {
+  text-decoration: none;
+}
+
+li {
+	color: #fff;
+
+	display: block;
+	float: left;
+	padding: 1rem;
+	position: relative;
+	text-decoration: none;
+  transition-duration: 0.5s;
+}
+li:hover {
+	cursor: pointer;
+}
+ul li ul {
+	visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+	position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+	left: 0;
+  display: none;
+}
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+ul li ul li {
+	clear: both;
+  width: 100%;
+}
+
+

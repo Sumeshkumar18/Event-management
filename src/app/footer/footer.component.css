@@ -1,0 +1,29 @@
+
+.footer {
+  text-align: center;
+}
+/* for new icon */
+.iconbox {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+  color:black;
+  font-size: 32px;
+  border-radius: 100px;
+  box-shadow: #5f5f63;
+  padding-left: 620px;
+}
+i.bx.bxl-facebook {
+  padding-bottom: 30px;
+}
+i.bx.bxl-instagram {
+  padding-bottom: 30px;
+  margin-left: 10px;
+}
+i.bx.bxl-twitter {
+  padding-bottom: 30px;
+  margin-left: 10px;
+}
